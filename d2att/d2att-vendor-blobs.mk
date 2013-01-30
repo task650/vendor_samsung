@@ -40,6 +40,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2att/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
         vendor/samsung/d2att/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
         vendor/samsung/d2att/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
+        vendor/samsung/d2att/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+        vendor/samsung/d2att/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
         vendor/samsung/d2att/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
         vendor/samsung/d2att/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
         vendor/samsung/d2att/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
