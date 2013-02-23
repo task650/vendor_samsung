@@ -116,8 +116,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2spr/proprietary/cameradata/SlimISP_ZD.bin:system/cameradata/SlimISP_ZD.bin \
         vendor/samsung/d2spr/proprietary/cameradata/SlimISP_ZE.bin:system/cameradata/SlimISP_ZE.bin \
         vendor/samsung/d2spr/proprietary/cameradata/SlimISP_ZH.bin:system/cameradata/SlimISP_ZH.bin \
-        vendor/samsung/d2spr/proprietary/cameradata/datapsprern_420sp.yuv:system/cameradata/datapsprern_420sp.yuv \
-        vendor/samsung/d2spr/proprietary/cameradata/datapsprern_front_420sp.yuv:system/cameradata/datapsprern_front_420sp.yuv \
+        vendor/samsung/d2spr/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
+        vendor/samsung/d2spr/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
         vendor/samsung/d2spr/proprietary/lib/libdiag.so:system/lib/libdiag.so \
         vendor/samsung/d2spr/proprietary/bin/macloader:system/bin/macloader \
         vendor/samsung/d2spr/proprietary/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
