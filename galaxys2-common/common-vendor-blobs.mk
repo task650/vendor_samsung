@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2-common/proprietary/sbin/cbd:sbin/cbd \
     vendor/samsung/galaxys2-common/proprietary/system/bin/bcm4330B1.hcd:system/bin/bcm4330B1.hcd \
+    vendor/samsung/galaxys2-common/proprietary/system/bin/hostapd:system/bin/hostapd
     vendor/samsung/galaxys2-common/proprietary/system/bin/bcm4330B1_murata.hcd:system/bin/bcm4330B1_murata.hcd \
     vendor/samsung/galaxys2-common/proprietary/system/bin/bcm4330B1_semcosh.hcd:system/bin/bcm4330B1_semcosh.hcd \
     vendor/samsung/galaxys2-common/proprietary/system/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
