@@ -1,4 +1,4 @@
-#SEMCO B62_G1_VID:3366 (4335B0) - FW171.24.16_03/19
+#SEMCO B62_G1_VID:3366 (4335B0) - FW171.24.23_2013/04/29
 
 sromrev=11
 #R05AG1B1
@@ -6,7 +6,7 @@ boardrev=0x1400
 boardtype=0x064d
 boardflags=0x10401001
 boardflags2=0x0
-boardflags3=0xc48c
+boardflags3=0x800c48c
 #boardnum=57410 
 macaddr=00:90:4c:c5:12:38()
 ccode=US
