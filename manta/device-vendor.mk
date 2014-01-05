@@ -12,11 +12,35 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := manta/device-partial.mk
-
-$(call inherit-product-if-exists, vendor/audience/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/samsung/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/widevine/$(LOCAL_STEM))
-
-PRODUCT_RESTRICT_VENDOR_FILES := owner
+PRODUCT_PACKAGES := \
+    bcm2079x_firmware \
+    bcm2079x_pre_firmware \
+    bcm43241 \
+    es305_fw \
+    fimc_is_fw \
+    fimc_is_fw2 \
+    libbccArm.sha1 \
+    libbccArm \
+    libbcinfoArm \
+    libclcoreArm \
+    libclcore_neonArm \
+    libdrmdecrypt \
+    libdrmwvmplugin \
+    libfrsdk \
+    libGLES_mali \
+    libmalicore \
+    libRSDriverArm \
+    libstagefright_hdcp \
+    libwvdrm_L1 \
+    libwvdrmengine \
+    libwvm \
+    libWVStreamControlAPI_L1 \
+    maxtouch \
+    mfc_fw \
+    setfile \
+    setfile_4e5 \
+    setfile_6a3 \
+    00060308060501020000000000000000 \
+    020a0000000000000000000000000000 \
+    07060000000000000000000000000000 \
+    ffffffff000000000000000000000005
